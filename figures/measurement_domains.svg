@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size:28px; font-weight:bold; fill:#0f172a; }
+    .subtitle { font-family: Arial, sans-serif; font-size:16px; fill:#475569; }
+    .box { fill:#f8fafc; stroke:#334155; stroke-width:2; rx:14; }
+    .text { font-family: Arial, sans-serif; font-size:18px; font-weight:bold; fill:#0f172a; }
+    .small { font-family: Arial, sans-serif; font-size:15px; fill:#334155; }
+  </style>
+  <text x="50" y="45" class="title">Current Employment Survey: Measurement Domains</text>
+  <text x="50" y="75" class="subtitle">Major questionnaire sections and the survey constructs they measure</text>
+
+  <rect x="70" y="120" width="300" height="120" class="box"/>
+  <text x="220" y="155" text-anchor="middle" class="text">Household Roster</text>
+  <text x="95" y="190" class="small">• Household size age 16+</text>
+  <text x="95" y="215" class="small">• Eligible household members</text>
+
+  <rect x="450" y="120" width="300" height="120" class="box"/>
+  <text x="600" y="155" text-anchor="middle" class="text">Demographics</text>
+  <text x="475" y="190" class="small">• Age / birth year</text>
+  <text x="475" y="215" class="small">• Gender, education, marital status</text>
+
+  <rect x="830" y="120" width="300" height="120" class="box"/>
+  <text x="980" y="155" text-anchor="middle" class="text">Employment Status</text>
+  <text x="855" y="190" class="small">• Work for pay/profit</text>
+  <text x="855" y="215" class="small">• Temporary absence / multiple jobs</text>
+
+  <rect x="260" y="320" width="300" height="120" class="box"/>
+  <text x="410" y="355" text-anchor="middle" class="text">Hours Worked</text>
+  <text x="285" y="390" class="small">• Main-job hours</text>
+  <text x="285" y="415" class="small">• Other-job hours / usual hours</text>
+
+  <rect x="640" y="320" width="300" height="120" class="box"/>
+  <text x="790" y="355" text-anchor="middle" class="text">Earnings and Income</text>
+  <text x="665" y="390" class="small">• Weekly earnings</text>
+  <text x="665" y="415" class="small">• Exact and categorical household income</text>
+
+  <rect x="300" y="505" width="600" height="70" class="box"/>
+  <text x="600" y="535" text-anchor="middle" class="text">Survey Operations Output</text>
+  <text x="600" y="562" text-anchor="middle" class="small">Structured Qualtrics export, codebook template, QA checklist, and response-cleaning plan</text>
+</svg>
