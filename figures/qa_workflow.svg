@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <style>
+    .title { font-family: Arial, sans-serif; font-size:28px; font-weight:bold; fill:#0f172a; }
+    .box { fill:#f8fafc; stroke:#334155; stroke-width:2; rx:14; }
+    .text { font-family: Arial, sans-serif; font-size:18px; font-weight:bold; fill:#0f172a; }
+    .small { font-family: Arial, sans-serif; font-size:15px; fill:#334155; }
+    .arrow { stroke:#334155; stroke-width:2.5; fill:none; marker-end:url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155" />
+    </marker>
+  </defs>
+  <text x="50" y="45" class="title">Survey Instrument QA and Response-Data Workflow</text>
+
+  <rect x="60" y="120" width="220" height="110" class="box"/>
+  <text x="170" y="155" text-anchor="middle" class="text">Instrument Review</text>
+  <text x="85" y="190" class="small">• Wording</text>
+  <text x="85" y="215" class="small">• Piped text</text>
+
+  <rect x="345" y="120" width="220" height="110" class="box"/>
+  <text x="455" y="155" text-anchor="middle" class="text">Flow Testing</text>
+  <text x="370" y="190" class="small">• Skip logic</text>
+  <text x="370" y="215" class="small">• Roster loops</text>
+
+  <rect x="630" y="120" width="220" height="110" class="box"/>
+  <text x="740" y="155" text-anchor="middle" class="text">Export Review</text>
+  <text x="655" y="190" class="small">• Variable names</text>
+  <text x="655" y="215" class="small">• Codebook checks</text>
+
+  <rect x="915" y="120" width="220" height="110" class="box"/>
+  <text x="1025" y="155" text-anchor="middle" class="text">Data Cleaning</text>
+  <text x="940" y="190" class="small">• Missingness</text>
+  <text x="940" y="215" class="small">• Range checks</text>
+
+  <rect x="345" y="330" width="220" height="110" class="box"/>
+  <text x="455" y="365" text-anchor="middle" class="text">QA Tables</text>
+  <text x="370" y="400" class="small">• Item inventory</text>
+  <text x="370" y="425" class="small">• Issue log</text>
+
+  <rect x="630" y="330" width="220" height="110" class="box"/>
+  <text x="740" y="365" text-anchor="middle" class="text">Analysis Outputs</text>
+  <text x="655" y="400" class="small">• Response rates</text>
+  <text x="655" y="425" class="small">• Distributions</text>
+
+  <path d="M280 175 L345 175" class="arrow"/>
+  <path d="M565 175 L630 175" class="arrow"/>
+  <path d="M850 175 L915 175" class="arrow"/>
+  <path d="M1025 230 C1025 300 850 385 850 385" class="arrow"/>
+  <path d="M630 385 L565 385" class="arrow"/>
+</svg>
