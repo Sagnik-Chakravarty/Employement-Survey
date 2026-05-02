@@ -1,0 +1,20 @@
+export_tag,question_id,topic,question_type,selector,variable_description,recommended_cleaning_note
+Consent,QID1,Consent / introduction,MC,SAVR,Consent and introduction screen,Confirm consent coding before analysis
+Q1,QID2,Household roster,MC,DL,Number of people age 16 or older in household,Validate range and check missing values
+Q2,QID3,Household roster,TE,FORM,First names or roster labels for eligible household members,Remove direct identifiers before public release
+Q3,QID5,Household roster,MC,SAVR,Relationship of rostered household member to respondent,Recode into relationship categories
+Q4,QID15,Demographics,TE,SL,Birth year,Check valid range and derive age if needed
+Q5,QID17,Demographics,TE,SL,Approximate age if birth year unknown,Check valid age range
+Q6,QID18,Demographics,MC,SAVR,Gender,Standardize category labels
+Q7,QID19,Demographics,MC,SAVR,Marital status,Standardize category labels
+Q8,QID20,Demographics,MC,SAVR,Highest education completed,Map to education categories
+Q9,QID21,Demographics,MC,MAVR,Race ethnicity or identity categories,Handle multiple-response coding
+Q10,QID24,Employment status,MC,SAVR,Worked for pay or profit last week,Recode yes/no to binary employment indicator
+Q11,QID25,Employment status,MC,SAVR,Temporarily absent from job last week,Use with Q10 to classify labor-force status
+Q12,QID26,Employment status,MC,SAVR,Had more than one job last week,Recode yes/no and validate with job count
+Q13,QID27,Employment status,MC,SAVR,Number of jobs last week,Check consistency with multiple-job item
+Q14,QID28,Hours worked,TE,SL,Hours worked at job last week,Validate numeric hours and flag outliers
+Q15,QID32,Hours worked,TE,SL,Hours worked at other jobs last week,Validate numeric hours and combine if needed
+Q16,QID34,Earnings / income,TE,SL,Usual weekly earnings before taxes or deductions,Remove symbols and parse numeric values
+Q17A,QID36,Earnings / income,TE,SL,Exact household income before taxes in past 12 months,Remove symbols and parse numeric values
+Q17B,QID37,Earnings / income,MC,SAVR,Categorical household income follow-up,Use when exact income is missing or refused
