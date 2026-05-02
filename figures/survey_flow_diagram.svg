@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <style>
+    .box { fill:#f8fafc; stroke:#334155; stroke-width:2; rx:12; }
+    .decision { fill:#fff7ed; stroke:#9a3412; stroke-width:2; }
+    .text { font-family: Arial, sans-serif; font-size:18px; fill:#0f172a; }
+    .small { font-family: Arial, sans-serif; font-size:15px; fill:#334155; }
+    .title { font-family: Arial, sans-serif; font-size:28px; font-weight:bold; fill:#0f172a; }
+    .arrow { stroke:#334155; stroke-width:2.5; fill:none; marker-end:url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#334155" />
+    </marker>
+  </defs>
+  <text x="40" y="45" class="title">Current Employment Survey: Questionnaire Flow</text>
+
+  <rect x="420" y="80" width="360" height="55" class="box"/>
+  <text x="600" y="114" text-anchor="middle" class="text">Consent / Introduction</text>
+
+  <rect x="420" y="165" width="360" height="55" class="box"/>
+  <text x="600" y="199" text-anchor="middle" class="text">Household size: age 16+</text>
+
+  <rect x="420" y="250" width="360" height="55" class="box"/>
+  <text x="600" y="284" text-anchor="middle" class="text">Household roster</text>
+
+  <rect x="420" y="335" width="360" height="55" class="box"/>
+  <text x="600" y="369" text-anchor="middle" class="text">Person-level demographics</text>
+
+  <rect x="420" y="420" width="360" height="55" class="box"/>
+  <text x="600" y="454" text-anchor="middle" class="text">Employment status questions</text>
+
+  <polygon points="600,505 760,560 600,615 440,560" class="decision"/>
+  <text x="600" y="555" text-anchor="middle" class="text">Worked last week?</text>
+  <text x="600" y="580" text-anchor="middle" class="small">yes/no branch</text>
+
+  <rect x="160" y="645" width="280" height="55" class="box"/>
+  <text x="300" y="679" text-anchor="middle" class="text">Temporary absence</text>
+
+  <rect x="760" y="645" width="280" height="55" class="box"/>
+  <text x="900" y="679" text-anchor="middle" class="text">Jobs, hours, earnings</text>
+
+  <rect x="420" y="700" width="360" height="45" class="box"/>
+  <text x="600" y="729" text-anchor="middle" class="text">Household income / End</text>
+
+  <path d="M600 135 L600 165" class="arrow"/>
+  <path d="M600 220 L600 250" class="arrow"/>
+  <path d="M600 305 L600 335" class="arrow"/>
+  <path d="M600 390 L600 420" class="arrow"/>
+  <path d="M600 475 L600 505" class="arrow"/>
+  <path d="M440 560 C330 570 300 610 300 645" class="arrow"/>
+  <path d="M760 560 C870 570 900 610 900 645" class="arrow"/>
+  <path d="M440 672 C500 690 530 700 560 700" class="arrow"/>
+  <path d="M760 672 C700 690 670 700 640 700" class="arrow"/>
+</svg>
