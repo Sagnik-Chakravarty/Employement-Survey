@@ -1,0 +1,23 @@
+section,question_id,export_tag,question_type,selector,measurement_domain,public_release_note
+Consent,QID1,Consent,MC,SAVR,Consent and introduction,No respondent data
+Household roster,QID2,Q1,MC,DL,Household size,No respondent data
+Household roster,QID3,Q2,TE,FORM,Roster names,Direct identifiers should be removed before public release
+Household roster,QID5,Q3,MC,SAVR,Relationship to respondent,No respondent data
+Demographics,QID15,Q4.1,TE,SL,Birth year,Check range before analysis
+Demographics,QID17,Q5,TE,SL,Approximate age,Check range before analysis
+Demographics,QID18,Q6.1,MC,SAVR,Gender,No respondent data
+Demographics,QID19,Q7.1,MC,SAVR,Marital status,No respondent data
+Demographics,QID20,Q8.1,MC,SAVR,Education,No respondent data
+Demographics,QID21,Q9.1,MC,MAVR,Race/ethnicity or identity,Multiple-response recoding required
+Employment status,QID24,Q10.1,MC,SAVR,Worked for pay/profit last week,Use for employment classification
+Employment status,QID25,Q11.1,MC,SAVR,Temporary absence from job,Use with work-for-pay item
+Employment status,QID26,Q12.1,MC,SAVR,Multiple jobs,Check against number-of-jobs item
+Employment status,QID27,Q13.1,MC,SAVR,Number of jobs,Check logical consistency
+Hours worked,QID28,Q14,TE,SL,Hours worked last week,Validate numeric range
+Hours worked,QID29,Q14,TE,SL,Main-job hours,Validate numeric range
+Hours worked,QID30,Q14.2,MC,SAVR,Usual hours comparison,No respondent data
+Hours worked,QID32,Q15.1,TE,SL,Other-job hours,Validate numeric range
+Earnings,QID34,Q16.1,TE,SL,Weekly earnings,Parse numeric values and flag outliers
+Earnings,QID35,Q16.1A,TE,SL,Main-job weekly earnings,Parse numeric values and flag outliers
+Household income,QID36,Q17A,TE,SL,Exact household income,Parse numeric values and protect confidentiality
+Household income,QID37,Q17B,MC,SAVR,Categorical household income,Use as fallback for missing exact income
