@@ -1,0 +1,11 @@
+category,value
+Survey type,Qualtrics web survey
+Primary subject,Current employment and household labor-force measurement
+Primary unit,Household respondent with person-level household member questions
+Main population concept,People age 16 or older in respondent household
+Core domains,"Household roster; demographics; employment status; hours worked; earnings; household income"
+Instrument format,Web survey instrument exported as Qualtrics QSF
+Public respondent data included,No
+Documentation included,"README; survey overview; questionnaire schema; instrument data dictionary; QA checklist; survey flow diagram"
+Analysis files included,"Instrument review report; QA checklist; response-cleaning template"
+Export files included,"Instrument inventory; variable codebook template; survey design summary"
