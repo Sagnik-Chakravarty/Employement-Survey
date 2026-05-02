@@ -1,0 +1,12 @@
+# Data privacy
+exports/*.csv
+exports/*.xlsx
+exports/*.sav
+exports/*.dta
+exports/*.sas7bdat
+
+# OS/editor files
+.DS_Store
+.Rhistory
+.RData
+.ipynb_checkpoints/
